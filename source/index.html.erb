@@ -1,15 +1,68 @@
 ---
-title: Le Wagon - Middleman
+title: Lecomotive
 ---
 
-<div id="home">
+<div id="home" style="background-image: linear-gradient(-225deg, rgba(155,055,055,0.7) 0%, rgba(0,0,0,0.2) 100%), url('https://unsplash.it/1000/330?image=1080')">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
+    <%= image_tag "logo2.png", width: "80%" %>
     <p>
-      Middleman is now running!
+      Now Open !!
     </p>
     <p class="about">
-      <%= link_to "More about this template", "about.html" %>
+      <%= link_to "More about the team", "about.html" %>
     </p>
+  </div>
+</div>
+
+<div class="container padded">
+  <h2>What we do at "L'Ecomotive"</h2>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'cantine.jpg'%>);">
+        <div class="card-category">Tasty</div>
+        <div class="card-description">
+          <h2>Cantine de quartier</h2>
+          <p>Vegeterian gulten&vegan friendly</p>
+        </div>
+        <i class="fa fa-cutlery card-user" aria-hidden="true"></i>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'cafe.jpg'%>)">
+        <div class="card-category">Savory</div>
+        <div class="card-description">
+          <h2>Cafe Arte</h2>
+          <p>Dark and profound</p>
+        </div>
+        <i class="fa fa-coffee card-user" aria-hidden="true"></i>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'coworking.jpg'%>)">
+        <div class="card-category">New</div>
+        <div class="card-description">
+          <h2>Coworking</h2>
+          <p>Nice and cosy</p>
+        </div>
+        <i class="fa fa-laptop card-user" aria-hidden="true"></i>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path 'yoga.jpeg'%>);">
+        <div class="card-category">Shape</div>
+        <div class="card-description">
+          <h2>Yoga sessions</h2>
+          <p>Body and soul food</p>
+        </div>
+        <i class="fa fa-heart card-user" aria-hidden="true"></i>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
   </div>
 </div>
